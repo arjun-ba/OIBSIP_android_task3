@@ -1,0 +1,35 @@
+<resources>
+
+    <style name="CalcButton" parent="CalcButton.Base" />
+
+    <!-- Base style for all calculator buttons -->
+    <style name="CalcButton.Base">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/round_button</item>
+    </style>
+
+    <style name="CalcButton.Red" parent="CalcButton.Base">
+        <item name="android:backgroundTint">#B71C1C</item>
+    </style>
+
+    <style name="CalcButton.Gray" parent="CalcButton.Base">
+        <item name="android:backgroundTint">#616161</item>
+    </style>
+
+    <style name="CalcButton.Orange" parent="CalcButton.Base">
+        <item name="android:backgroundTint">#FF9800</item>
+    </style>
+
+    <style name="CalcButton.Cyan" parent="CalcButton.Base">
+        <item name="android:backgroundTint">#00BCD4</item>
+    </style>
+
+</resources>
+
+
